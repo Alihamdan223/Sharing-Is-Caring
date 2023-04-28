@@ -1,0 +1,83 @@
+body {
+    padding: 0;
+    margin: 0; 
+}
+
+.main-head {
+    background-color:#101058;
+    padding: 10px;
+}
+
+.main-head h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    text-transform: uppercase;
+}
+
+main {
+    margin-top: 80px;
+}
+
+main h2 {
+    background-color: rgb(18, 18, 54);
+    color: white;
+    width: 150px;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-form label {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(45, 45, 70);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    padding: 8px;
+}
+
+.login-form input {
+    width: 500px;
+    border: none;
+    outline: none;
+    border-bottom: 4px solid silver;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding: 7px;
+}
+
+.login-form a {
+    color: blue;
+    text-decoration: none;
+}
+
+.login-form a:hover {
+    text-decoration: underline;
+}
+
+#login-submit {
+    width: 200px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.95em;
+    padding: 10px;
+    background-color:rgb(5, 5, 20);
+    cursor: pointer;
+}
