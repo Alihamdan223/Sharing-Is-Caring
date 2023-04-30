@@ -117,3 +117,10 @@ main h2 {
     background-color: #fff!important;
     color: rgb(45,45,70)!important;
 }
+
+.registration-buttons-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
