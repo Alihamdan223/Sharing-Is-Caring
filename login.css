@@ -5,6 +5,7 @@ body {
 
 .main-head {
     background-color:#101058;
+    /* background-color: rgb(45, 45, 70); */
     padding: 10px;
 }
 
@@ -19,7 +20,7 @@ main {
 }
 
 main h2 {
-    background-color: rgb(18, 18, 54);
+    background-color: rgb(45, 45, 70);
     color: white;
     width: 150px;
     padding: 10px;
@@ -40,9 +41,8 @@ main h2 {
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(45, 45, 70);
     text-align: center;
-    color: white;
+    color:  rgb(45, 45, 70);
     font-weight: bold;
     width: 200px;
     padding: 8px;
@@ -60,8 +60,12 @@ main h2 {
 }
 
 .login-form a {
-    color: blue;
+    color: rgb(45, 45, 70);
     text-decoration: none;
+}
+
+.reset-container{
+    display: flex; flex-direction: row; align-items: center; justify-content: center;
 }
 
 .login-form a:hover {
@@ -75,9 +79,20 @@ main h2 {
     margin-right: auto;
     margin-top: 20px;
     color: white;
+    border:1px solid rgb(45, 45, 70);
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 0.95em;
     padding: 10px;
-    background-color:rgb(5, 5, 20);
+    background-color: rgb(45, 45, 70);
+    /* background-color:rgb(5, 5, 20); */
+    border-radius: 20px;
     cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+
+
+#login-submit:hover {
+    background-color: #fff!important;
+    color: rgb(45,45,70)!important;
 }

@@ -3,22 +3,29 @@
     <link rel="stylesheet" href="login.css">
     <script src="login.js"></script>
 </head>
+
 <body>
     <header>
         <div class="main-head">
-        <h1>Sharing Is Caring</h1>
+            <h1>Sharing Is Caring</h1>
         </div>
     </header>
     <main>
         <h2>Login</h2>
-    <form class="login-form">
-        <label>Email</label>
-        <input type="email" name="email">
-        <label>Password</label>
-        <input type="password" name="password">
-        <p>Forgot Password?</p>
-        <a href="resetPass.html">Reset Password</a>
-        <button id="login-submit">Login</button>
-    </form>
+        <form class="login-form">
+            <label>Email</label>
+            <input type="email" name="email">
+            <label>Password</label>
+            <input type="password" name="password">
+            <div class="reset-container">
+                <p>Forgot Password? &nbsp; &nbsp; </p>
+                <a href="resetPass.html">Reset Password</a>
+            </div>
+            <div class="reset-container">
+                <p>Don't have an account? &nbsp; &nbsp; </p>
+                <a href="register.html">Register now</a>
+            </div>
+            <button id="login-submit">Login</button>
+        </form>
     </main>
 </body>

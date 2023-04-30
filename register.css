@@ -27,15 +27,23 @@ body {
 }
 
 main {
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 main h2 {
-    background-color: rgb(18, 18, 54);
+    background-color: rgb(45, 45, 70);
     color: white;
     width: 150px;
     padding: 10px;
     font-weight: 500;
+}
+
+.login-link-container{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    align-items: center;
+    justify-content: center;
 }
 
 .form-element {
@@ -52,8 +60,8 @@ main h2 {
 
 .form-element a {
     text-align: center;
+    color: rgb(45, 45, 70);
     text-decoration: none;
-    color: blue;
 }
 
 .form-element a:hover {
@@ -97,6 +105,15 @@ main h2 {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 0.95em;
     padding: 10px;
-    background-color:rgb(5, 5, 20);
+    background-color: rgb(45, 45, 70);
+    border: 1px solid rgb(45, 45, 70);
+    border-radius: 20px;
+    transition: background-color 0.5s ease;
     cursor: pointer;
+}
+
+
+#form-submit:hover {
+    background-color: #fff!important;
+    color: rgb(45,45,70)!important;
 }
